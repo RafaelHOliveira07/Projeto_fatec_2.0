@@ -77,14 +77,16 @@ $professor = new Professor($id);
             <div class="docs">
                 <h3>Documentos Obrigatorios</h3>
                 <div class="inputs">
-                    <label for="pdf">Anexo VI - Ficha de Manifestação de Interesse</label>
+                    <label for="pdf">Anexo VI - Ficha de Manifestação de Interesse <a href="../uploads/doc/ANEXO-VI-Instrucao-Cesu-8-2023-2.docx" download="Ficha_de_manifestação_de_interesse"><i class="fa-solid fa-file-arrow-down"></i></a></label>
                     <label for="pdf" class="file">Selecione</label>
                     <input type="file" name="documentos[]" id="pdf">
+                    
                 </div>
                 <div class="inputs">
-                    <label for="pdf2">Anexo IV - Tabela de Pontuação</label>
+                    <label for="pdf2">Anexo IV - Tabela de Pontuação <a href="../uploads/doc/ANEXO-IV-Instrucao-Cesu-08-2023-31.xlsx" download="Tabela_de_pontuação"><i class="fa-solid fa-file-arrow-down"></i></a></label>
                     <label for="pdf2" class="file2">Selecione</label>
                     <input type="file" name="documentos[]" id="pdf2">
+                    
                 </div>
                 <div class="inputs">
                     <label for="pdf3">Documentos</label>
