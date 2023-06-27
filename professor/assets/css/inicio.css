@@ -1,0 +1,189 @@
+.principal>.conteudo {
+    height: 100%;
+}
+
+/* Seja Bem-Vindo */
+
+.principal>.conteudo>.img-inicio {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.568)), url(../../img/wepik-photo-mode-20221016-232549.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: calc(top - 13rem);
+}
+
+.principal>.conteudo>.img-inicio>.texto>ul {
+    list-style: none;
+}
+
+.principal>.conteudo>.img-inicio>.texto>ul>li>h1 {
+    color: #e7e7e7;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    filter: drop-shadow(4px 4px 13px rgba(0, 0, 0, 0.329));
+    font-size: clamp(2em, 1em + 7vw, 5em);
+    text-align: left;
+}
+
+.principal>.conteudo>.img-inicio>.texto>ul>li>p {
+    color: #fff;
+    font-size: clamp(1em, 1em + 1vw, 2em);
+    font-weight: 400;
+}
+
+.principal>.conteudo>.img-inicio>.texto>ul>li>p>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Cursos */
+
+.principal>.conteudo>.faixa {
+    width: 100%;
+    height: 3rem;
+    background-color: #1d1d1d;
+}
+
+.principal>.conteudo>.titulo-cursos {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #1f1f1f;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.288);
+    margin: 3rem 0;
+}
+
+.principal > .conteudo > .cursos {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin: 2rem 0;
+}
+
+.principal > .conteudo > .cursos > a {
+    text-decoration: none;
+}
+
+.principal > .conteudo > .cursos > a > .card {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 2.5rem 0;
+    border-radius: 1rem;
+    background-color: #1d1d1d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+}
+
+.principal > .conteudo > .cursos > a > .card:hover .card-hover {
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+
+.principal > .conteudo > .cursos > a > .card:hover .card-texto {
+    opacity: 0;
+}
+
+.principal > .conteudo > .cursos > a > .card > .card-texto {
+    width: 100%;
+    height: 7.8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    row-gap: 0.4rem;
+    padding: 0.8rem;
+    border-radius: 0 0 0.9rem 0.9rem;
+    background-color: #1d1d1d;
+    transition: all 0.2s;
+}
+
+.principal > .conteudo > .cursos > a > .card > .card-texto > h3 {
+    color: #fff;
+    font-size: medium;
+}
+
+.principal > .conteudo > .cursos > a > .card > .card-texto > p {
+    height: max-content;
+    color: #fff;
+    font-size: smaller;
+    font-weight: bolder;
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 2px;
+}
+
+.principal > .conteudo > .cursos > a > .card > .card-hover {
+    width: 12rem;
+    position: absolute;
+    opacity: 0;
+    backface-visibility: hidden;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 8rem;
+}
+
+.principal > .conteudo > .cursos > a > #dsm {
+    background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(../../img/code-1839406_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.principal > .conteudo > .cursos > a > #dsm:hover {
+    background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(../../img/code-1839406_640.jpg);
+  transition:  2s;
+}
+
+.principal > .conteudo > .cursos > a > #ge {
+    background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(../../img/teamwork-3213924_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.principal > .conteudo > .cursos > a > #ge:hover {
+    background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(../../img/teamwork-3213924_640.jpg);
+  transition:  2s;
+}
+
+.principal > .conteudo > .cursos > a > #gpi {
+    background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(../../img/wepik-photo-mode-20221017-142641.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.principal > .conteudo > .cursos > a > #gpi:hover {
+    background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(../../img/wepik-photo-mode-20221017-142641.png);
+  transition:  2s;
+}
+
+.principal > .conteudo > .cursos > a > #gti {
+    background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(../../img/student-849822_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.principal > .conteudo > .cursos > a > #gti:hover {
+    background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(../../img/student-849822_640.jpg);
+  transition:  2s;
+}
+
+@media (max-width: 700px) {
+    .principal > .conteudo > .cursos{
+        display: flex;
+        flex-direction: column;
+    }
+}

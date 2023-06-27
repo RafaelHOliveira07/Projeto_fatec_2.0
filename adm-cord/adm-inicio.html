@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/padrao.css">
+    <link rel="stylesheet" href="./assets/css/forms.css">
+    <link rel="shortcut icon" href="../projeto-teste/img/administracao.png" type="image/x-icon">
+    <title>Adm - Inicio</title>
+</head>
+
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown>.dropbtn {
+        background-color: #4caf50;
+        color: #fff;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .dropdown>.dropdown-conteudo {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown>.dropdown-conteudo>a {
+        color: #000;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown>.dropdown-conteudo>a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-conteudo {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+</style>
+
+<body>
+    <header class="cabecalho">
+        <div class="titulo">
+            <img src="../projeto-teste/img/administracao.png" id="adm" alt="">
+            <h2>Area Administrativa</h2>
+        </div>
+    </header>
+    <div class="cabecalho-2"></div>
+    <section class="menu-adm">
+        <ul>
+            <li><a href="adm.php?dir=repeticoes&file=for">Inicio</a></li>
+            <li><a href="adm-cadastrar-prof.php">Cadastrar Professor</a></li>
+            <li>
+                <h2>Cursos</h2>
+            </li>
+            <li><a href="adm-addcursos.php">Adicionar Curso</a></li>
+            <li><a href="adm.php?dir=cursos&file=cursos-gerenciar">Gerenciar cursos</a></li>
+            <li>
+                <h2>Disciplinas</h2>
+            </li>
+            <li><a href="adm-adddisciplina.php">Adicionar Disciplina</a></li>
+            <li><a href="#">Gerenciar Disciplinas</a></li>
+            <li>
+                <h2>Editais</h2>
+            </li>
+            <li><a href="adm-adicionar.php">Adicionar Editais</a></li>
+            <li><a href="adm-geren-editais.php">Gerenciar Editais</a></li>
+            <li>
+                <h2>Participantes</h2>
+            </li>
+            <li><a href="adm-part.php">Lista de Participantes</a></li>
+        </ul>
+    </section>
+    <main class="principal">
+        <div class="central">
+            <form action="./cursos/cursos-gravar.php" method="post">
+                <h2>Indeferir</h2>
+                <div class="inputs">
+                    <label for="desc_curso">Inserir motivo do indeferimento</label>
+                    <textarea name="desc_curso" id="desc_curso" cols="30" rows="10"></textarea>
+                </div>
+                <button>Confirmar</button>
+            </form>
+        </div>
+    </main>
+    </section>
+    <script src="https://kit.fontawesome.com/9869816a76.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

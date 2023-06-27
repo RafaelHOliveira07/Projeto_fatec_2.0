@@ -1,0 +1,192 @@
+.principal > .conteudo {
+    height: 100%;
+}
+
+.principal > .conteudo > .img-sobre,
+.principal > .conteudo > .img-duv,
+.principal > .conteudo > .img-cursos {
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.principal > .conteudo > .img-sobre{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../../img/fatec-itapira.jpg);
+}
+
+.principal > .conteudo > .img-cursos{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../../img/pexels-katerina-holmes-5905569.jpg);
+}
+
+.principal > .conteudo > .img-duv {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../../img/man-5723449_1920.jpg);
+}
+
+.principal > .conteudo > .img-sobre > h1,
+.principal > .conteudo > .img-duv > h1,
+.principal > .conteudo > .img-cursos > h1 {
+    color: #fff;
+    font-size: clamp(2em, 1em + 7vw, 5em);
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+    display: flex;
+    flex-direction: column;
+}
+
+.principal > .conteudo > .faixa {
+    width: 100%;
+    height: 3rem;
+    color: #fff;
+    background-color: #1d1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.principal > .conteudo > .box-texto {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: auto;
+    padding: 1rem;
+}
+
+.principal > .conteudo > .box-texto > .texto {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    padding: 2rem 1.3rem;
+}
+
+.principal > .conteudo > .box-texto > .texto > h2 {
+    color: #4b4b4b;
+    font-size: clamp(2em , 2em + 2vw , 3em);
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+.principal > .conteudo > .box-texto > .texto > p {
+    row-gap: 4rem;
+    font-size: clamp(1em, 2em + 1vw, 1em);
+    line-height: 1.6rem;
+    text-align: justify;
+    text-overflow: clip;
+    word-spacing: 1px;
+    white-space: normal;
+    text-indent: 10px;
+}
+
+.principal > .conteudo > .cursos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 3rem 0;
+}
+
+.principal > .conteudo > .cursos > .curso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17rem;
+    max-width: 1100px;
+    min-width: 400px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.521);
+}
+
+.principal > .conteudo > .cursos > .curso > .nome {
+    height: 100%;
+    min-width: clamp(170px, 20vw, 250px);
+    padding: 1rem;
+    border-radius: 25px 0px 0px 25px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal > .conteudo > .cursos > .curso > .nome.dsm {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../../img/code-1839406_640.jpg);
+}
+
+.principal > .conteudo > .cursos > .curso > .nome.ge {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../../img/teamwork-3213924_640.jpg);
+}
+
+.principal > .conteudo > .cursos > .curso > .nome.gpi {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../../img/wepik-photo-mode-20221017-142641.png);
+}
+
+.principal > .conteudo > .cursos > .curso > .nome.gti {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../../img/student-849822_640.jpg);
+}
+
+.principal > .conteudo > .cursos > .curso > .nome > h2 {
+    font-size: clamp(1rem, 1.7vw , 1.3rem);
+    padding: 0 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.521);
+    font-weight: bolder;
+}
+
+.principal > .conteudo > .cursos > .curso > p {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #1d1d1d;
+    border-radius: 0 25px 25px 0;
+    font-size: clamp(0.8rem, 1.5vw , 1rem);
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    font-weight: 500;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.principal > .conteudo > .cursos > .curso > p > a {
+    padding: 0.8rem 0.8rem;
+    margin-top: 0.5rem;
+    font-size: clamp(1rem, 1.5vw , 1.2rem);
+    border: none;
+    width: clamp(10rem, 10vw ,13rem);
+    border-radius: 5px;
+    background-color: #fff;
+    color: #121212;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
+.principal > .conteudo > .cursos > .curso > p > a:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+    color: #fff;
+}

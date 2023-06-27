@@ -1,0 +1,173 @@
+/* Formulário Padrão */
+
+.central > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #121212;
+}
+
+.central > form > h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.central > form > .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.central > form > .inputs > label {
+    font-weight: 600;
+}
+
+.central > form > .inputs > input[type=file] {
+    display: none;
+}
+
+.central > form > .inputs > .file {
+    padding: 0.8rem 0.8rem;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.central > form > .inputs > .file:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}
+
+.central > form > .inputs > input[type=text] {
+    width: 30rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #121212;
+    transition: all .4s ease-in-out;
+}
+
+.central > form > .inputs > input[type=text]:focus{
+    outline: none;
+    transform: scale(1.05);
+    border-bottom: 1px solid #ccc;
+}
+
+.central > form > .inputs > input[type=text]:hover{
+    outline: none;
+    transform: scale(1.05);
+    border-bottom: 1px solid #ccc;
+}
+
+.central > form > .inputs > textarea {
+    resize: none;
+    width: 25rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: all .4s ease-in-out;
+}
+
+.central > form > .inputs > textarea:hover {
+    border-color: #ccc;
+    transform: scale(1.05);
+}
+
+.central > form > .inputs > textarea:focus {
+    outline: none;
+    border-color: #ccc;
+    transform: scale(1.05);
+}
+
+.central > form > button {
+    padding: 0.8rem 0.8rem;
+    border: none;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    transition: all .4s ease-in-out;
+}
+
+.central > form > button:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}
+
+.central > form > .inputs > select {
+    width: 30rem;
+    height: 2rem;
+    border-radius: 5px;
+    border-color: #121212;
+    transition: all .4s ease-in-out;
+}
+
+.central > form > .inputs > select:hover {
+    border-color: #ccc;
+    transform: scale(1.05);
+}
+
+.central > form > .inputs > select:focus {
+    outline: none;
+    border-color: #ccc;
+    transform: scale(1.05);
+}
+
+/* Formulário Professor */
+
+.central > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #121212;
+}
+
+.central > form > .linha-form {
+    display: flex;
+    gap: 3rem;
+}
+
+.central > form > .linha-form > .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.central > form > .linha-form > .inputs > label {
+    font-weight: 600;
+}
+
+.central > form > .linha-form > .inputs > input[type=text], .central > form > .linha-form > .inputs > input[type=tel], .central > form > .linha-form > .inputs > input[type=date], .central > form > .linha-form > .inputs > input[type=password] {
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #121212;
+    transition: all .4s ease-in-out;
+}
+
+.central > form > .linha-form > .inputs > input[type=text]:focus, .central > form > .linha-form > .inputs > input[type=tel]:focus ,.central > form > .linha-form > .inputs > input[type=date]:focus, .central > form > .linha-form > .inputs > input[type=password]:focus{
+    outline: none;
+    transform: scale(1.05);
+    border-bottom: 1px solid #ccc;
+}
+
+.central > form > .linha-form > .inputs > input[type=text]:hover, .central > form > .linha-form > .inputs > input[type=tel]:hover, .central > form > .linha-form > .inputs > input[type=date]:hover, .central > form > .linha-form > .inputs > input[type=password]:hover{
+    outline: none;
+    transform: scale(1.05);
+    border-bottom: 1px solid #ccc;
+}

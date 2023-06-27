@@ -1,0 +1,179 @@
+.principal > .conteudo {
+    height: 55rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0;
+    background-image: url(../../img/pexels-brayan-vieira-7661653.jpg);
+}
+
+.principal > .conteudo.recuperar {
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0;
+    background-image: url(../../img/pexels-brayan-vieira-7661653.jpg);
+    background-position: -1rem;
+}
+
+.principal > .conteudo > .texto-login > ul {
+    list-style: none;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    filter: drop-shadow( 4px 4px 13px rgba(0, 0, 0, 0.329));
+}
+
+.principal > .conteudo > .texto-login > ul > li > h2 {
+    font-size: clamp(2em, 1em + 7vw, 5em);
+}
+
+.principal > .conteudo > .texto-login > ul > li > p {
+    font-size: clamp(1em, 1em + 1vw,2em);
+}
+
+.principal > .conteudo > .login > .box-login {
+    min-width: 370px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+.principal > .conteudo > .login > .box-login > .inputs.recuperar > small {
+    color: #ca040be5;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.principal > .conteudo > .login > .box-login > .titulo-login {
+    background-color: #121212;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 8px solid #ca040be5;
+}
+
+.principal > .conteudo > .login > .box-login > .titulo-login > h2 {
+    font-size: 2.5rem;
+}
+
+.principal > .conteudo > .login > .box-login > .titulo-login.recuperar > h2 {
+    font-size: 2rem;
+}
+
+.principal > .conteudo > .login > .box-login > .titulo-login.recuperar2 > h2 {
+    font-size: 1.5rem;
+}
+
+.principal > .conteudo > .login > .box-login > .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.principal > .conteudo > .login > .box-login > .inputs > label {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.principal > .conteudo > .login > .box-login > .inputs.recuperar > label {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.principal > .conteudo > .login > .box-login > .inputs > input {
+    width: 15rem;
+    height: 2rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #121212;
+    transition: all .4s ease-in-out;
+}
+
+.principal > .conteudo > .login > .box-login > .inputs > input:hover {
+    outline: none;
+    transform: scale(1.05);
+    border-color: #717171;
+}
+
+.principal > .conteudo > .login > .box-login > .inputs > input:focus {
+    outline: none;
+    transform: scale(1.05);
+    border-color: #717171;
+}
+
+.principal > .conteudo > .login > form > button {
+    padding: 0.8rem 0.8rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
+.principal > .conteudo > .login > form > .botoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.principal > .conteudo > .login > form > .botoes > button,
+.principal > .conteudo > .login > .box-login > .botoes > .reenviar {
+    padding: 0.8rem 0.8rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
+.principal > .conteudo > .login > form > button:hover,
+.principal > .conteudo > .login > form > .botoes > button:hover,
+.principal > .conteudo > .login > .box-login > .botoes > .reenviar:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}
+
+.principal > .conteudo > .login > form > a {
+    color: #121212;
+}
+
+.principal > .conteudo > .login > form > a:hover {
+    color: #717171;
+}
+
+@media (max-width: 1200px) {
+    .principal > .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+}

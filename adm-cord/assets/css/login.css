@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "cabecalho" "principal";
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    box-shadow: 0px 3px 9px 0px rgb(0, 0, 0, 0.5);
+}
+.cabecalho > .titulo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 1rem;
+}
+
+.cabecalho > .titulo > #adm {
+    filter: invert(100%);
+}
+
+.cabecalho > .titulo > img {
+    width: 2rem;
+}
+
+.home{
+    grid-area: principal;
+    min-width: 100vw;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)), url(../../img/back-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home > .box-login {
+    min-width: 370px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.4);
+}
+
+.home > .box-login > .titulo-login {
+    background-color: #121212;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 8px solid #ca040be5;
+}
+
+.home > .box-login > .titulo-login > h2 {
+    font-size: 2.5rem;
+}
+
+.home > .box-login > .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.home > .box-login > .inputs > label {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.home > .box-login > .inputs > input {
+    width: 15rem;
+    height: 2rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #121212;
+    transition: all .4s ease-in-out;
+}
+
+.home > .box-login > .inputs > input:hover {
+    outline: none;
+    transform: scale(1.05);
+    border-color: #717171;
+}
+
+.home > .box-login > .inputs > input:focus {
+    outline: none;
+    transform: scale(1.05);
+    border-color: #717171;
+}
+
+.home > form > button {
+    padding: 0.8rem 0.8rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    border: none;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    transition: all .4s ease-in-out;
+}
+
+.home > form > button:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}

@@ -1,0 +1,387 @@
+.principal>.conteudo {
+    height: 100%;
+}
+
+.principal>.conteudo>.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+
+.principal>.conteudo>.perfil>.foto-perfil {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);
+}
+
+.principal>.conteudo>.perfil>.foto-perfil>img {
+    width: 40rem;
+}
+
+.principal>.conteudo>.perfil>form>.alt-img>input[type=file] {
+    display: none;
+}
+
+.principal>.conteudo>.perfil>form>.alt-img>.img-perfil {
+    padding: 0.8rem 0.8rem;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.principal>.conteudo>.perfil>form>.alt-img>.img-perfil:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}
+
+.principal>.conteudo>.perfil>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.principal>.conteudo>.perfil>form>.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form {
+    display: flex;
+    gap: 2rem;
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form>.inputs {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form>.inputs>input {
+    height: 2rem;
+    font-size: 1.5rem;
+    padding: 2rem 0 1.5rem 0;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #121212;
+    transition: all 0.2s ease-in-out;
+    cursor: text;
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form>.inputs>input:hover {
+    outline: none;
+    border-color: #313131;
+    font-size: 1.5rem;
+    transform: scale(1.05);
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form>.inputs>input:focus {
+    outline: none;
+    border-color: #313131;
+    font-size: 1.5rem;
+    transform: scale(1.05);
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form>.inputs>input:read-only {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: default;
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form>.inputs>input:read-only:hover {
+    transform: scale(1);
+}
+
+.principal>.conteudo>.perfil>form>.info>.linha-form>.inputs>input:read-only:focus {
+    transform: scale(1);
+}
+
+.principal>.conteudo>.perfil>form>.botoes {
+    display: flex;
+    gap: 2rem;
+}
+
+.principal>.conteudo>.perfil>form>.botoes>.btn {
+    width: 13rem;
+    padding: 0.8rem 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    transition: all .4s ease-in-out;
+}
+
+.principal>.conteudo>.perfil>form>.botoes>.btn:hover{
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}
+
+.principal>.conteudo>.perfil>form>.botoes>button {
+    font-size: 1rem;
+}
+
+.principal>.conteudo>.titulo {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal>.conteudo>.titulo>h2 {
+    font-size: 2.8rem;
+    color: #121212;
+}
+
+.principal>.conteudo>.editais {
+    max-width: 90%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: auto;
+    padding: 1rem;
+}
+
+.principal>.conteudo>.editais>.edital {
+    max-width: 100%;
+    width: 50rem;
+    max-height: max-content;
+    background-color: #1d1d1d;
+    border-radius: 0.7rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.356);
+    margin-top: 2rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    list-style: none;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.7rem 0.7rem 0 0;
+    position: relative;
+}
+
+.principal>.conteudo>.editais>.edital>.info-topo>li {
+    margin-left: 0.3rem;
+    padding-left: 0.3rem;
+    font-size: small;
+    font-weight: bold;
+    border-left: 2px solid #ca040be5;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 1rem;
+    padding: 1rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.detalhes>span {
+    color: #fff;
+    font-size: smaller;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.detalhes>.linkpdf {
+    height: max-content;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.4rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.detalhes>.linkpdf>span {
+    color: #fff;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.detalhes>.linkpdf>span>a {
+    color: #ca040be5;
+    font-size: 2rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-topo>.status {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 1rem;
+    right: 0.5rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-topo>.status>.info-status {
+    height: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 10px rgba(37, 37, 37, 0.199);
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+.principal>.conteudo>.editais>.edital>.info-topo>.status>.info-status>span{
+    width: 100%;
+    padding: 0.5rem;
+    color: #121212;
+    text-decoration: none;
+    font-size: smaller;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botao {
+    height: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 10px rgba(37, 37, 37, 0.199);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botao:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+    border-color: #fff;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botao>a{
+    width: 100%;
+    padding: 0.5rem;
+    color: #121212;
+    text-decoration: none;
+    font-size: smaller;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botao>a:hover{
+    color: #fff;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botoes {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botoes>.botao {
+    height: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 10px rgba(37, 37, 37, 0.199);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botoes>.botao:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+    border-color: #fff;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botoes>.botao>a{
+    width: 100%;
+    padding: 0.5rem;
+    color: #121212;
+    text-decoration: none;
+    font-size: smaller;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>.botoes>.botao>a:hover{
+    color: #fff;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.status-part>span {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.popup-fundo {
+    margin-right: 1rem;
+    border-radius: 0.7rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.popup-fundo>.popup {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 0.7rem;
+}
+
+.principal>.conteudo>.editais>.edital>.info-corpo>.popup-fundo>.popup>.popup-conteudo>h2 {
+    font-size: 1rem;
+}

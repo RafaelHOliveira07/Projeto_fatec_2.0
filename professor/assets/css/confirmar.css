@@ -1,0 +1,143 @@
+.principal>.conteudo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.principal>.conteudo>.titulo {
+    margin-top: 2rem;
+}
+
+.principal>.conteudo>.titulo>h2 {
+    font-size: 2.8rem;
+    color: #121212;
+}
+
+.principal>.conteudo>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.principal>.conteudo>form>.dados {
+    display: flex;
+    gap: 3rem;
+}
+
+.principal>.conteudo>form>.dados>.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.principal>.conteudo>form>.dados>.info>h3 {
+    font-size: 2rem;
+    color: #121212;
+}
+
+.principal>.conteudo>form>.dados>.info>.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.principal>.conteudo>form>.dados>.info>.inputs>label {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ca040be5;
+}
+
+.principal>.conteudo>form>.dados>.info>.inputs>input {
+    width: 20rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.principal>.conteudo>form>.dados>.docs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.principal>.conteudo>form>.dados>.docs>h3 {
+    font-size: 2rem;
+    color: #121212;
+}
+.principal>.conteudo>form>.dados>.docs>.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.principal>.conteudo>form>.dados>.docs>.inputs>label {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.principal>.conteudo>form>.dados>.docs>.inputs>input[type=file] {
+    display: none;
+}
+
+.principal>.conteudo>form>.dados>.docs>.inputs>.file,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file2,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file3,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file4,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file5,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file6 {
+    padding: 0.8rem 0.8rem;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.principal>.conteudo>form>.dados>.docs>.inputs>.file:hover,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file2:hover,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file3:hover,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file4:hover,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file5:hover,
+.principal>.conteudo>form>.dados>.docs>.inputs>.file6:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}
+
+.principal>.conteudo>form>button {
+    padding: 1rem 1rem;
+    border: none;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0, 0.2);
+    transition: all .4s ease-in-out;
+}
+
+.principal>.conteudo>form>button:hover {
+    transform: scale(1.1);
+    background-color: #ca040be5;
+}
